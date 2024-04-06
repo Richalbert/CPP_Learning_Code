@@ -9,7 +9,8 @@ int main()
     std::vector<int> tab = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
     int n = tab.size();
-    std::cout << n << std::endl;
+    //std::cout << n << std::endl;
+    
     for (int it = 0; it < n; ++it)
     {
         if (tab[it] % 2 == 0)
